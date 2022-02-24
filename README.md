@@ -29,6 +29,8 @@ Using a cost function, we can measure the accuracy of our hypothesis function. T
 The cost function, broken down, is 1/2 of the mean of the squares of the difference between the predicted value ( h0(x) ) and the actual value (y).
 
 
+[Learning Problem Diagram.pdf](https://github.com/jordanlevy001/Machine-Learning-Explained/files/8137119/Learning.Problem.Diagram.pdf)
+
 
 
 ### Minimizing the Cost Function
