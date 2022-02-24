@@ -10,14 +10,12 @@ An overview of machine learning and the mathematics powering machine learning
 
 
 ## Supervised Learning
-Supervised learning can be divided into regression and classification. Regression is used to predict continuous variables. Whereas classification is used to predict discrete outcomes. 
+Supervised learning can be divided into regression and classification. Regression is used to predict continuous variables. Whereas classification is used to predict discrete outcomes. Features are the variables used to inform the prediction. The target/output is the predicted outcome.
 
 ## Regression vs Classification
 
 ### Regression
 When the target variable to predict is **continuous**, then the learning problem is considered a regression problem.
-
-Supervised learning can be divided into regression and classification. Regression is used to predict continuous variables. Whereas classification is used to predict discrete outcomes. For this wine analysis, the target variable (what we're trying to predict), is a quality score -- which is a continuous variable. The wine quality score is a numerical value within a given range, making it a continuous variable. In both classification and regression issues, the data is divided into features and targets. Features are the variable used to inform the prediction. The target/output is the predicted outcome.
 
 ### Classification
 When the target variable to predict is **discrete**, then the learning problem is considered a classification problem.
