@@ -5,6 +5,21 @@ An overview of machine learning and the mathematics powering machine learning
 1. Unsupervised
 2. Supervised
 
+### Unsupervised Learning
+
+### Supervised Learning
+
+
+
+## Regression vs Classification
+
+### Regression
+When the target variable to predict is **continuous**, then the learning problem is considered a regression problem.
+
+### Classification
+When the target variable to predict is **discrete**, then the learning problem is considered a Classification problem.
+
+
 ## Cost Function
 Using a cost function, we can measure the accuracy of our hypothesis function. This takes an average difference of all the results of the hypothesis with inputs from 'x' and the actual outputs (y).
 
