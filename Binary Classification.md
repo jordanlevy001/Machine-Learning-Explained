@@ -69,4 +69,19 @@ If the correct answer 'y' is 1, then the cost function will be 0 if the hypothes
 Note: writing the cost function in this way guarantess that J(theta) is convex for logistic regression.
 
 
+### Simplified Cost Function & Gradient Descent
+
+#### Simplified Cost Function
+
+<img width="860" alt="Screen Shot 2022-02-25 at 2 54 18 PM" src="https://user-images.githubusercontent.com/88804543/155813830-b9822bf0-7fe5-4cda-8c18-77fe4b93cfb8.png">
+
+
+#### Gradient Descent
+
+<img width="910" alt="Log Reg Gradient Descent" src="https://user-images.githubusercontent.com/88804543/155814454-800125c9-6ab8-40dc-ba06-9018b38c9754.png">
+
+
+### Coding Optimization
+
+Some ways to optimize theta that can be used instead of gradient descent are "conjugate gradient", "BFGS", "L-BFGS". Octave provides libraries for these optimizations. TensorFlow provides similar libraries in Python.
 
