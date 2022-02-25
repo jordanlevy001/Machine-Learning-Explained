@@ -83,5 +83,5 @@ Note: writing the cost function in this way guarantess that J(theta) is convex f
 
 ### Coding Optimization
 
-Some ways to optimize theta that can be used instead of gradient descent are "conjugate gradient", "BFGS", "L-BFGS". Octave provides libraries for these optimizations. TensorFlow provides similar libraries in Python.
+Some ways to optimize theta that can be used instead of gradient descent are "conjugate gradient", "BFGS", "L-BFGS". Octave provides libraries for these optimizations. The TensorFlow library in Python provides similar optimizations.
 
