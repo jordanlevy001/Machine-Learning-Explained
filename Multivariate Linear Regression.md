@@ -44,7 +44,8 @@ In the cubic version, we created new features: x2 and x3. Where:
 <img width="94" alt="Screen Shot 2022-02-25 at 2 00 20 PM" src="https://user-images.githubusercontent.com/88804543/155808951-cd8ca080-5c36-43ff-bdf5-a64d5504f93b.png">
 
 
-To make it a square root function we could do:<img width="239" alt="Add Square Root" src="https://user-images.githubusercontent.com/88804543/155809207-39d0003c-2be4-49c9-a58f-8b5799676ee8.png">
+To make it a square root function we could do: <img width="255" alt="Add Square root" src="https://user-images.githubusercontent.com/88804543/155809430-3926a728-f189-4f03-a35d-f9dadee60afd.png">
+
 
 An important thing to keep in mind is, if you choose your features this way then feature scaling is critical. 
 
