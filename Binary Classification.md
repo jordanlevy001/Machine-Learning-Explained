@@ -1,5 +1,5 @@
 # Machine Learning
-# Supervised Learning: Classification
+# Supervised Learning: Binary Classification
 
 ## What is Classification
 The classification problem is similar to the regression problem, except that the values we want to predict are a small number of discrete values. Classification can be binary or multiclass/multinomial.
@@ -51,3 +51,22 @@ The **DECISION BOUNDARY** is the line that separates the area where y = 0 and wh
 <img width="272" alt="Screen Shot 2022-02-25 at 2 36 58 PM" src="https://user-images.githubusercontent.com/88804543/155812448-a8e57ec1-f2c4-43b0-bc2c-9d88d12ef561.png">
 
 Note: the input to the sigmoid function g(z) does NOT need to be linear
+
+
+### Cost Function
+We do not use the same cost function that is used for linear regression for logistic regression. This is because the logistic function will cause the output to be wavy, causing many local optima. In other words, it will not be a convex function.
+
+The cost function for logistic regression is:
+
+<img width="368" alt="Cost Func Logistic Regression" src="https://user-images.githubusercontent.com/88804543/155812826-8cebb4a6-5b65-4d43-a643-6384343ada79.png">
+
+<img width="417" alt="Cost Func Log Reg Explain" src="https://user-images.githubusercontent.com/88804543/155812942-7043d0e3-906f-4df3-9200-d8a46348d3ff.png">
+
+If the correct answer 'y' is 0, then the cost function will be 0 if the hypothesis function also outputs 0. If our hypothesis approaches 1, then the cost function will approach infinity.
+
+If the correct answer 'y' is 1, then the cost function will be 0 if the hypothesis function also outputs 1. If our hypothesis approaches 0, then the cost function will approach infinity.
+
+Note: writing the cost function in this way guarantess that J(theta) is convex for logistic regression.
+
+
+
