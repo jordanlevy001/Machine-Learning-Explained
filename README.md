@@ -86,9 +86,14 @@ alpha = the learning rate
 At each iteration j, one should simultaneously update the parameters: theta1, theta2, theta3, ..., theta n
 Updating a specific parameter prior to calculating another one on the j(th) iteration would yield the wrong implementation
 
-##### The Learning Rate
-We should adjust the parameter alpha (the learning rate) to ensure that the gradient descent algortihm converges in a reasonable amount of time. Failture to converge or too much time to obtain the minimum value implies that our step size is incorrect.
+#### The Learning Rate
+We should adjust the parameter alpha (the learning rate) to ensure the gradient descent algortihm converges in a reasonable amount of time. Failture to converge or too much time to obtain the minimum value implies that our step size is incorrect.
 
+If alpha is too small, gradient descent will be very slow.
+
+If alpha is too large, gradient descent can overshoot the minimum. It may fail to converge, or even diverge.
+
+Gradient descent can converge to a local minimum, even with a fixed learning rate alpha. As gradient descent approaches a local minimum, it will automatically take smaller steps. So there is no need to decrease alpha over time.
 
 ## Machine Learning in Practice
 
