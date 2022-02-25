@@ -68,4 +68,15 @@ where
 <img width="31" alt="Screen Shot 2022-02-25 at 1 41 13 PM" src="https://user-images.githubusercontent.com/88804543/155806914-d965da4b-584b-484d-bbc5-d1ed1c00e86b.png"> = the range of values (max -min) OR the standard deviation for feature (i)
 
 
+### Gradient Descent - Learning Rate
+
+Ensuring you have selected an appropriate learning rate (alpha) can be tested by making a plot with the **number of iterations of gradient descent on the x-axis** and the **cost function, J(theta), on the y-axis**. 
+
+If J(theta) ever increases --> then decrease alpha
+
+It has been proven that if the learning rate alpha is sufficiently small, then J(theta) will decrease on every iteration.
+
+But if alpha is TOO SMALL, gradient descent can be slow to converge.
+
+If alpha is TOO LARGE, gradient descent may not decrease on every iteration and thus may not converge
 
