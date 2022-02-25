@@ -1,9 +1,9 @@
 # Machine Learning Explained
 # Multivariate Linear Regression
 
-## What is Multivariate Linear Regression
+## Linear Regression with Multiple Variables
 
-Linear regression with multiple variable is also known as "multivariate linear regression"
+Linear regression with multiple variables is known as "multivariable or multivariate linear regression".
 
 
 ### Multivariate Hypothesis Function
@@ -11,7 +11,6 @@ Linear regression with multiple variable is also known as "multivariate linear r
 The notation for equations with multiple input variables:
 
 <img width="392" alt="Multivariate Notation" src="https://user-images.githubusercontent.com/88804543/155785506-7915a519-6f01-4c87-8b5b-32c740efb61a.png">
-
 
 The multivariable form of the hypothesis function accomodating multiple features looks like:
 
