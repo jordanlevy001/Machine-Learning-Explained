@@ -44,15 +44,15 @@ This function of x is represented as: <img width="50" alt="Screen Shot 2022-02-2
 
 <img width="161" alt="h of x function" src="https://user-images.githubusercontent.com/88804543/155759284-0178bc69-2e1b-4e30-b667-b3a5de4a5dab.png">
 
-For <img width="93" alt="J thetas" src="https://user-images.githubusercontent.com/88804543/155757777-780dc40a-ab39-4e9f-9902-73fe48d96f45.png">, this is a function of the parameters <img width="61" alt="theta0 theta1" src="https://user-images.githubusercontent.com/88804543/155757844-ff4dad51-e98e-4f72-a872-24691005bf82.png">
-
+For <img width="93" alt="J thetas" src="https://user-images.githubusercontent.com/88804543/155757777-780dc40a-ab39-4e9f-9902-73fe48d96f45.png">, this is a function of the parameters <img width="61" alt="theta0 theta1" src="https://user-images.githubusercontent.com/88804543/155757844-ff4dad51-e98e-4f72-a872-24691005bf82.png"> . Plotted as a 3D and corresponding 2D contour plot:
 
 <img width="641" alt="Contour Plot Example" src="https://user-images.githubusercontent.com/88804543/155760007-bc783eab-76ae-43a7-a9f1-72a740c98a85.png">
 
 As you minimize the cost function, you get a corresponding theta0 and theta1. Those values of theta0 and theta1 are located at the center of the inner most 'circle' (on the 2D contour plot).
 
-### Minimizing the Cost Function
 
+### Minimizing the Cost Function
+How do we choose the parameters theta0 and theta1 so that h(x) is close to the actual value (y)? In other words, the value we predict (h(x)) on the input value (x) that is least closest to the actual value (y) for the examples in the training set (x,y).
 
 
 
