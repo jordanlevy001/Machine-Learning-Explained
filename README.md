@@ -60,7 +60,7 @@ So we need to minimize over theta0 and theta1. We want the difference between ou
 
 where i is the ith training example.
 
-Looking above at the contour plot of <img width="93" alt="J thetas" src="https://user-images.githubusercontent.com/88804543/155765768-339569ef-53e2-465f-b5bf-b637b13d7579.png"> above, we want to find the minimum value of J(0,1)![image](https://user-images.githubusercontent.com/88804543/155765932-9abecdf8-5b99-4932-bd92-efa2bbaf1cf1.png)
+Looking above at the contour plot of <img width="93" alt="J thetas" src="https://user-images.githubusercontent.com/88804543/155765768-339569ef-53e2-465f-b5bf-b637b13d7579.png"> above, we want to find the minimum value of ![image](https://user-images.githubusercontent.com/88804543/155765932-9abecdf8-5b99-4932-bd92-efa2bbaf1cf1.png)
 
 
 
