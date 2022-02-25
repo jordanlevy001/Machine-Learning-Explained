@@ -65,7 +65,7 @@ where
 
 <img width="29" alt="Screen Shot 2022-02-25 at 1 40 12 PM" src="https://user-images.githubusercontent.com/88804543/155806789-315899eb-7a56-48fe-8d02-454a8a4c84f2.png"> = average of the values for feature (i)
 
-<img width="31" alt="Screen Shot 2022-02-25 at 1 41 13 PM" src="https://user-images.githubusercontent.com/88804543/155806914-d965da4b-584b-484d-bbc5-d1ed1c00e86b.png"> = the range of values (max -min) OR the standard deviation
+<img width="31" alt="Screen Shot 2022-02-25 at 1 41 13 PM" src="https://user-images.githubusercontent.com/88804543/155806914-d965da4b-584b-484d-bbc5-d1ed1c00e86b.png"> = the range of values (max -min) OR the standard deviation for feature (i)
 
 
 
