@@ -27,7 +27,8 @@ Using a cost function, we can measure the accuracy of our hypothesis function. T
 
 <img width="462" alt="Cost Function" src="https://user-images.githubusercontent.com/88804543/155618200-9f364b61-b14e-4fa3-82f4-f583d2572d00.png">
 
-The cost function, broken down, is 1/2 of the mean of the squares of the difference between the predicted value ( h0(x) ) and the actual value (y).
+The cost function, broken down, is 1/2 of the mean of the squares of the difference between the predicted value (<img width="50" alt="h of x" src="https://user-images.githubusercontent.com/88804543/155762736-7851d434-6420-4900-8926-83413aec7dab.png">) and the actual value (y).
+
 
 
 
