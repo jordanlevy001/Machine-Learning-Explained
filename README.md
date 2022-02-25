@@ -69,7 +69,22 @@ where i is the ith training example.
 
 Looking above at the contour plot of J(theta0, theta1) above, we want to find the minimum value of J(theta0, theta1), which is the smallest oval (global minimum) in the 2D contour plot. Once we have the contour plot, we can use a method such as ordinary least squares or **GRADIENT DESCENT** to find the minimum of J(theta0, theta1). Once we have the minimum values of theta0 and theta1, those values are used for h(x) and the regression line is plotted to the training data.
 
-### Gradient Descent
+
+### Gradient Descent For Linear Regression
+Gradient descent specifically applied to the case of linear regression:
+
+<img width="480" alt="Gradient Descent for linear regression" src="https://user-images.githubusercontent.com/88804543/155771835-4f4d0708-9dba-4389-b216-8041e5501c18.png">
+
+where
+
+m = the size of the training set
+
+theta0 is a constant that will be changing simultaneously with theta1
+
+x(i), y(i) are values of the given training set (data)
+
+
+### Gradient Descent in General
 
 Gradient descent is an efficient function to find the minimum values of J(theta0, theta1). This method is used in linear regression and other machine learning algorithms. Gradient descent will start at a point (theta0, theta1), and take small steps to try to find the local minimum. If we start at a different point, we may end up a at a different local minimum. 
 
@@ -94,6 +109,13 @@ If alpha is too small, gradient descent will be very slow.
 If alpha is too large, gradient descent can overshoot the minimum. It may fail to converge, or even diverge.
 
 Gradient descent can converge to a local minimum, even with a fixed learning rate alpha. As gradient descent approaches a local minimum, it will automatically take smaller steps. So there is no need to decrease alpha over time.
+
+#### Example of Gradient Descent on a Quadratic Function
+
+<img width="307" alt="Ex Grad Descent on Quad Func " src="https://user-images.githubusercontent.com/88804543/155772327-96dd0d91-f2cd-4359-8dfd-9534e1c36288.png">
+
+The ellipses shown in the image above are the contours of a quadratic function. The blue line shows the trajectory taken by gradient descent, which was initialized at (48,30). The x's joined by straight lines, mark the successive values of theta that gradient descent went through as it converged to the minimum.
+
 
 ## Machine Learning in Practice
 
