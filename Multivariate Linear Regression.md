@@ -30,7 +30,15 @@ Note: for convenience reasons, we can assume:
 
 ### Gradient Descent for Multiple Variables
 
-The gradient descent equation itself is generally the same form as before (for linear regression with one variable); we just have to repeat it for 'n' features:
+The gradient descent equation itself is generally the same form as for linear regression with one variable; we just have to repeat it for 'n' features:
+
+<img width="326" alt="Multivariate Gradient Descent" src="https://user-images.githubusercontent.com/88804543/155803881-3c0cd353-b3bb-4ec1-b9b8-7adfd8cfa5f0.png">
+
+To condense it:
+
+<img width="464" alt="Multivariate Gradient Descent Condensed" src="https://user-images.githubusercontent.com/88804543/155803955-e53ca351-22c0-417b-9674-f64c1f884a3b.png">
+
+
 
 
 
