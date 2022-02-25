@@ -63,7 +63,7 @@ So we need to minimize over theta0 and theta1. We want the difference between ou
 
 where i is the ith training example.
 
-Looking above at the contour plot of <img width="93" alt="J thetas" src="https://user-images.githubusercontent.com/88804543/155765768-339569ef-53e2-465f-b5bf-b637b13d7579.png"> above, we want to find the minimum value of ![image](https://user-images.githubusercontent.com/88804543/155765932-9abecdf8-5b99-4932-bd92-efa2bbaf1cf1.png), which is the smallest oval (global minimum) in the 2D contour plot. Once we have the contour plot, we can use a method such as ordinary least squares or **GRADIENT DESCENT** to find the minimum of J(theta0, theta1). Once we have the minimum values of theta0 and theta1, those values are used for h(x) and the regression line is plotted to the training data.
+Looking above at the contour plot of J(theta0, theta1) above, we want to find the minimum value of J(theta0, theta1), which is the smallest oval (global minimum) in the 2D contour plot. Once we have the contour plot, we can use a method such as ordinary least squares or **GRADIENT DESCENT** to find the minimum of J(theta0, theta1). Once we have the minimum values of theta0 and theta1, those values are used for h(x) and the regression line is plotted to the training data.
 
 ### Gradient Descent
 
