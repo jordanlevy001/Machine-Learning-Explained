@@ -28,6 +28,27 @@ Note: for convenience reasons, we can assume:
 
 - This allows us to do matrix operations with theta and x. Hence making the two vectors 'theta' and 'x(i)' match each other element-wise (meaning they have the same number of elements: n + 1).
 
+
+### Hypothesis Function & Adding Features
+
+We can improve our features and the form of the hypothesis function in a couple different ways. We can combine multiple features into one. For example, we can combine x1 and x2 into a new feature x3 by multiplying x1 and x2.
+
+If a linear hypothesis does not fit the data well, we can change the behavior or curve of our hypothesis function by making it a quadratic, cube, or square root function (or any other form).
+
+<img width="922" alt="Screen Shot 2022-02-25 at 1 57 33 PM" src="https://user-images.githubusercontent.com/88804543/155808661-99534d3c-2be0-4252-be66-5b0b851715f7.png">
+
+In the cubic version, we created new features: x2 and x3. Where:
+
+<img width="89" alt="Screen Shot 2022-02-25 at 2 00 15 PM" src="https://user-images.githubusercontent.com/88804543/155808937-861d9bdf-18d2-45c7-b2c9-72b113030105.png">
+
+<img width="94" alt="Screen Shot 2022-02-25 at 2 00 20 PM" src="https://user-images.githubusercontent.com/88804543/155808951-cd8ca080-5c36-43ff-bdf5-a64d5504f93b.png">
+
+
+To make it a square root function we could do:<img width="239" alt="Add Square Root" src="https://user-images.githubusercontent.com/88804543/155809207-39d0003c-2be4-49c9-a58f-8b5799676ee8.png">
+
+An important thing to keep in mind is, if you choose your features this way then feature scaling is critical. 
+
+
 ### Gradient Descent for Multiple Variables
 
 The gradient descent equation itself is generally the same form as for linear regression with one variable; we just have to repeat it for 'n' features:
