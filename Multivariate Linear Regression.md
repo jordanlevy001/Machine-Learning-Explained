@@ -39,7 +39,7 @@ To condense it:
 <img width="464" alt="Multivariate Gradient Descent Condensed" src="https://user-images.githubusercontent.com/88804543/155803955-e53ca351-22c0-417b-9674-f64c1f884a3b.png">
 
 
-#### Gradient Descent - Feature Scaling
+### Gradient Descent - Increasing Speed
 
 We can increase the speed of gradient descent by having each of our inpu values in roughly the same range. This is because theta will descend quickly on samll ranges and slowly on large ranges. So gradient descent will oscillate down to the optimum when the variables are very uneven. To prevent slow gradient descent, we can modify the ranges of our input variables so they are all roughly the same. Ideally, the input variables should be:
 
@@ -47,7 +47,17 @@ We can increase the speed of gradient descent by having each of our inpu values 
 
 Note: these are not exact requirements; this is an attempt to speed up gradient descent
 
+Two techniques to get the input values into the ideal ranges are:
+1. Feature Scaling
+2. Mean Normalization
 
+#### Feature Scaling
+Feature scaling involves dividing the input values by the range (or standard deviation) of the input variable. The range would be the maximum value minus the minimum value of the input variable.
+
+#### Mean Normalization
+Mean normalization involves subtracting the average value for an input variable from the values for that input variable resulting in a new average value for the input variable of just zero. 
+
+Implementing both feature scaling AND mean normalization would look like:
 
 
 
