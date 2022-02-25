@@ -2,7 +2,9 @@
 
 Continue reading here to learn about machine learning for **linear regression with one variable** and general info about machine learning. 
 
-Read this page first and then see [Multivariate Linear Regression](https://github.com/jordanlevy001/Machine-Learning-Explained/blob/main/Multivariate%20Linear%20Regression.md) to learn about machine learning for multivarite linear regression
+Read this page FIRST. Then see [Multivariate Linear Regression](https://github.com/jordanlevy001/Machine-Learning-Explained/blob/main/Multivariate%20Linear%20Regression.md) to learn about machine learning for multivarite linear regression.
+
+See [Binary Classification](https://github.com/jordanlevy001/Machine-Learning-Explained/blob/main/Binary%20Classification.md) to learn more about machine learning for binary classification.
 
 ## Two Types of Machine Learning
 1. Unsupervised
