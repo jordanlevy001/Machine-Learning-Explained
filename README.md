@@ -38,7 +38,9 @@ The cost function, broken down, is 1/2 of the mean of the squares of the differe
 
 #### Linear Regression with One Variable - Cost Function & Contour Plot
 A contour plot is a graph that contains many contour lines. A contour line of a 2 variable function has a constant value at all points of the same line.
-For fixed values of <img width="61" alt="theta0 theta1" src="https://user-images.githubusercontent.com/88804543/155757473-7b84b814-ee65-4a36-9013-0b3886f27c51.png">, is a function of x. This function of x is represented as: <img width="50" alt="Screen Shot 2022-02-25 at 9 10 26 AM" src="https://user-images.githubusercontent.com/88804543/155757715-6cc5eb1a-c5b2-46e2-8e53-67c9b7dd6d25.png">
+For fixed values of <img width="61" alt="theta0 theta1" src="https://user-images.githubusercontent.com/88804543/155757473-7b84b814-ee65-4a36-9013-0b3886f27c51.png">, is a function of x. These <img width="61" alt="theta0 theta1" src="https://user-images.githubusercontent.com/88804543/155757473-7b84b814-ee65-4a36-9013-0b3886f27c51.png"> are considered parameters of the model, and x is the independent variable.
+
+This function of x is represented as: <img width="50" alt="Screen Shot 2022-02-25 at 9 10 26 AM" src="https://user-images.githubusercontent.com/88804543/155757715-6cc5eb1a-c5b2-46e2-8e53-67c9b7dd6d25.png">
 
 <img width="161" alt="h of x function" src="https://user-images.githubusercontent.com/88804543/155759284-0178bc69-2e1b-4e30-b667-b3a5de4a5dab.png">
 
