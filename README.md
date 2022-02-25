@@ -55,7 +55,7 @@ As you minimize the cost function, you get a corresponding theta0 and theta1. Th
 
 ### Minimizing the Cost Function
 
-How do we choose the parameters theta0 and theta1 so that h(x) is as close to the actual value (y) as possible? In other words, the value we predict (h(x)) on the input value (x) that is least close to the actual value (y) for the examples in the training set (x,y). Remember the cost function measures the accuracy of our hypothesis function.
+How do we choose the parameters theta0 and theta1 so that h(x) is as close to the actual value (y) as possible? In other words, the value we predict ( h(x) ) on the input value (x) that is least close to the actual value (y) for the examples in the training set (x,y). Remember the cost function measures the accuracy of our hypothesis function.
 
 So we need to minimize over theta0 and theta1. We want the difference between our predicted and actual outcomes to be as small as possible. So we want to sum over the training set i = 1 to m (m = the # of training examples. Using the notation:
 
