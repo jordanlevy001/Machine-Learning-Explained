@@ -28,4 +28,14 @@ Note: for convenience reasons, we can assume:
 
 - This allows us to do matrix operations with theta and x. Hence making the two vectors 'theta' and 'x(i)' match each other element-wise (meaning they have the same number of elements: n + 1).
 
+### Gradient Descent for Multiple Variables
+
+The gradient descent equation itself is generally the same form as before (for linear regression with one variable); we just have to repeat it for 'n' features:
+
+
+
+
+
+
+
 
