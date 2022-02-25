@@ -75,7 +75,14 @@ Gradient descent is an efficient function to find the minimum values of J(theta0
 
 The gradient descent algorithm:
 
+<img width="386" alt="Gradient Descent Algorithm" src="https://user-images.githubusercontent.com/88804543/155769525-a51f4451-1a43-46bf-9222-5b143d2eea3b.png">
 
+where:
+
+j = 0,1 represents the feature index number
+alpha = the learning rate
+At each iteration j, one should simultaneously update the parameters: theta1, theta2, theta3, ..., theta n
+Updating a specific parameter prior to calculating another one on the j(th) iteration would yield the wrong implementation
 
 
 ## Machine Learning in Practice
