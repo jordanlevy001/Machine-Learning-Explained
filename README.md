@@ -1,5 +1,9 @@
 # Machine Learning Explained
-An overview of machine learning and the mathematics powering machine learning
+An overview of machine learning and the mathematics powering machine learning.
+
+Continue reading here to learn about machine learning for linear regression with one variable and 
+
+See [Multivariate Linear Regression](https://github.com/jordanlevy001/Machine-Learning-Explained/blob/main/Multivariate%20Linear%20Regression.md) to learn about machine learning for multivarite linear regression
 
 ## Two Types of Machine Learning
 1. Unsupervised
