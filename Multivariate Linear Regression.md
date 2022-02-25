@@ -39,8 +39,13 @@ To condense it:
 <img width="464" alt="Multivariate Gradient Descent Condensed" src="https://user-images.githubusercontent.com/88804543/155803955-e53ca351-22c0-417b-9674-f64c1f884a3b.png">
 
 
+#### Gradient Descent - Feature Scaling
 
+We can increase the speed of gradient descent by having each of our inpu values in roughly the same range. This is because theta will descend quickly on samll ranges and slowly on large ranges. So gradient descent will oscillate down to the optimum when the variables are very uneven. To prevent slow gradient descent, we can modify the ranges of our input variables so they are all roughly the same. Ideally, the input variables should be:
 
+<img width="117" alt="Ideal Input Value Range" src="https://user-images.githubusercontent.com/88804543/155804339-4e85aed9-51fd-4b43-bd4a-a46c758c50cf.png">
+
+Note: these are not exact requirements; this is an attempt to speed up gradient descent
 
 
 
