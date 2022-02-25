@@ -23,6 +23,7 @@ When the target variable to predict is **discrete**, then the learning problem i
 
 
 ## Linear Regression with One Variable - Cost Function
+
 Using a cost function, we can measure the accuracy of our hypothesis function. This takes an average difference of all the results of the hypothesis with inputs from 'x' and the actual outputs (y).
 
 <img width="462" alt="Cost Function" src="https://user-images.githubusercontent.com/88804543/155618200-9f364b61-b14e-4fa3-82f4-f583d2572d00.png">
@@ -37,6 +38,7 @@ The cost function, broken down, is 1/2 of the mean of the squares of the differe
 
 
 #### Linear Regression with One Variable - Cost Function & Contour Plot
+
 A contour plot is a graph that contains many contour lines. A contour line of a 2 variable function has a constant value at all points of the same line.
 For fixed values of <img width="61" alt="theta0 theta1" src="https://user-images.githubusercontent.com/88804543/155757473-7b84b814-ee65-4a36-9013-0b3886f27c51.png">, is a function of x. These <img width="61" alt="theta0 theta1" src="https://user-images.githubusercontent.com/88804543/155757473-7b84b814-ee65-4a36-9013-0b3886f27c51.png"> are considered parameters of the model, and x is the independent variable.
 
@@ -52,6 +54,7 @@ As you minimize the cost function, you get a corresponding theta0 and theta1. Th
 
 
 ### Minimizing the Cost Function
+
 How do we choose the parameters theta0 and theta1 so that h(x) is as close to the actual value (y) as possible? In other words, the value we predict (h(x)) on the input value (x) that is least close to the actual value (y) for the examples in the training set (x,y). Remember the cost function measures the accuracy of our hypothesis function.
 
 So we need to minimize over theta0 and theta1. We want the difference between our predicted and actual outcomes to be as small as possible. So we want to sum over the training set i = 1 to m (m = the # of training examples. Using the notation:
@@ -60,7 +63,9 @@ So we need to minimize over theta0 and theta1. We want the difference between ou
 
 where i is the ith training example.
 
-Looking above at the contour plot of <img width="93" alt="J thetas" src="https://user-images.githubusercontent.com/88804543/155765768-339569ef-53e2-465f-b5bf-b637b13d7579.png"> above, we want to find the minimum value of ![image](https://user-images.githubusercontent.com/88804543/155765932-9abecdf8-5b99-4932-bd92-efa2bbaf1cf1.png)
+Looking above at the contour plot of <img width="93" alt="J thetas" src="https://user-images.githubusercontent.com/88804543/155765768-339569ef-53e2-465f-b5bf-b637b13d7579.png"> above, we want to find the minimum value of ![image](https://user-images.githubusercontent.com/88804543/155765932-9abecdf8-5b99-4932-bd92-efa2bbaf1cf1.png), which is the smallest oval (global minimum) in the 2D contour plot. Once we have the contour plot, we can use a method such as ordinary least squares or **GRADIENT DESCENT** to find the minimum of J(theta0, theta1). Once we have the minimum values of theta0 and theta1, those values are used for h(x) and the regression line is plotted to the training data.
+
+### Gradient Descent
 
 
 
