@@ -37,9 +37,10 @@ The cost function, broken down, is 1/2 of the mean of the squares of the differe
 
 #### Cost Function & Contour Plot
 A contour plot is a graph that contains many contour lines. A contour line of a 2 variable function has a constant value at all points of the same line.
-For fixed 
-<img width="61" alt="theta0 theta1" src="https://user-images.githubusercontent.com/88804543/155757473-7b84b814-ee65-4a36-9013-0b3886f27c51.png">
+For fixed <img width="61" alt="theta0 theta1" src="https://user-images.githubusercontent.com/88804543/155757473-7b84b814-ee65-4a36-9013-0b3886f27c51.png">, is a function of x. This function of x is represented as: <img width="50" alt="Screen Shot 2022-02-25 at 9 10 26 AM" src="https://user-images.githubusercontent.com/88804543/155757715-6cc5eb1a-c5b2-46e2-8e53-67c9b7dd6d25.png">
 
+
+For <img width="93" alt="J thetas" src="https://user-images.githubusercontent.com/88804543/155757777-780dc40a-ab39-4e9f-9902-73fe48d96f45.png">, this is a function of the parameters <img width="61" alt="theta0 theta1" src="https://user-images.githubusercontent.com/88804543/155757844-ff4dad51-e98e-4f72-a872-24691005bf82.png">
 
 
 
