@@ -45,7 +45,8 @@ From the above, we can conclude:
 
 <img width="152" alt="Screen Shot 2022-02-25 at 2 35 43 PM" src="https://user-images.githubusercontent.com/88804543/155812318-2882fd93-0761-4e5f-b67c-8450bec1fb52.png">
 
-The Decision Boundary
+###### The Decision Boundary
+
 The **DECISION BOUNDARY** is the line that separates the area where y = 0 and where y = 1. It is created by the hypothesis function.
 
 <img width="272" alt="Screen Shot 2022-02-25 at 2 36 58 PM" src="https://user-images.githubusercontent.com/88804543/155812448-a8e57ec1-f2c4-43b0-bc2c-9d88d12ef561.png">
