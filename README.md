@@ -80,7 +80,9 @@ The gradient descent algorithm:
 where:
 
 j = 0,1 represents the feature index number
+
 alpha = the learning rate
+
 At each iteration j, one should simultaneously update the parameters: theta1, theta2, theta3, ..., theta n
 Updating a specific parameter prior to calculating another one on the j(th) iteration would yield the wrong implementation
 
