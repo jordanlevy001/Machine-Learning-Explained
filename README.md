@@ -39,6 +39,10 @@ The cost function, broken down, is 1/2 of the mean of the squares of the differe
 
 #### Linear Regression with One Variable - Cost Function & Contour Plot
 
+
+<img width="692" alt="hypothesis and cost function" src="https://user-images.githubusercontent.com/88804543/155769286-bc008098-a4a1-4ee4-8275-e5b933659294.png">
+
+
 A contour plot is a graph that contains many contour lines. A contour line of a 2 variable function has a constant value at all points of the same line.
 For fixed values of <img width="61" alt="theta0 theta1" src="https://user-images.githubusercontent.com/88804543/155757473-7b84b814-ee65-4a36-9013-0b3886f27c51.png">, is a function of x. These <img width="61" alt="theta0 theta1" src="https://user-images.githubusercontent.com/88804543/155757473-7b84b814-ee65-4a36-9013-0b3886f27c51.png"> are considered parameters of the model, and x is the independent variable.
 
@@ -66,6 +70,10 @@ where i is the ith training example.
 Looking above at the contour plot of J(theta0, theta1) above, we want to find the minimum value of J(theta0, theta1), which is the smallest oval (global minimum) in the 2D contour plot. Once we have the contour plot, we can use a method such as ordinary least squares or **GRADIENT DESCENT** to find the minimum of J(theta0, theta1). Once we have the minimum values of theta0 and theta1, those values are used for h(x) and the regression line is plotted to the training data.
 
 ### Gradient Descent
+
+Gradient descent is an efficient function to find the minimum values of J(theta0, theta1). This method is used in linear regression and other machine learning algorithms. Gradient descent will start at a point (theta0, theta1), and take small steps to try to find the local minimum. If we start at a different point, we may end up a at a different local minimum. 
+
+The gradient descent algorithm:
 
 
 
