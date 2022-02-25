@@ -1,7 +1,7 @@
 # Machine Learning
 # Supervised Learning: Multiclass Classification
 
-## What is Classification
+## What is Classification (Logistic Regression)
 
 The classification problem is similar to the regression problem, except that the values we want to predict are a small number of discrete values. Classification can be binary or multiclass/multinomial.
 
